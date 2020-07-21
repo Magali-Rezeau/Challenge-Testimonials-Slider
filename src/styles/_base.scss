@@ -1,0 +1,35 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 3.2rem;
+    color: var(--primary);
+    font-family: var(--font);
+    line-height: 5rem;
+    height: 100vh;
+    @include md {
+      height: auto;
+      
+     
+    }
+    @include sm {
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+    @include xs {
+       font-size: 1.8rem;
+    }
+   
+}
+p {
+    font-weight: 300;
+    
+    color: var(--primary);
+   
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
